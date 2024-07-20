@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Design</title>
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/framework.css">
+  <link rel="stylesheet" href="CSS/main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Work+Sans:wght@100;300;400;700;800&display=swap" >
+</head>
+<body>
+
+  <!-- Start Setting Box  -->
+  <div class="settings-box p-10 ">
+    <div class="gear-toggle">
+      <i class="gear fa fa-gear "></i>
+    </div>
+    <div class="settings-container">
+      <h2 class="mb-20 txt-c">Settings</h2>
+      <div class="option-box bg-eee p-10 rad-10 ">
+        <h4 class="txt-c fs-20">Colors</h4>
+        <ul class="color-list center-flex pt-10 ">
+          <li data-color="#f59e0b" class=" rad-6 active bg-orange"></li>
+          <li data-color="#f44336" class=" rad-6 bg-red"></li>
+          <li data-color="#22c55e" class=" rad-6 bg-green"></li>
+          <li data-color="#0075ff" class=" rad-6 bg-blue"></li>
+          <li data-color="#0bcbf5" class=" rad-6 bg-light-blue"></li>
+        </ul>
+      </div>
+      <div class="option-box bg-eee p-10 rad-10 mt-10 " title="Switch Background Randombly">
+        <h4 class="txt-c fs-13">Random Background</h4>
+        <div class="change-back space-between fs-13 pt-10">
+          <span data-background="yes" class="d-block rad-4 ml-20 active yes">Yes</span>
+          <span data-background="no" class="d-block rad-4 mr-20 no">NO</span>
+        </div>
+      </div>
+      <div class=" option-box bg-eee p-10 rad-10 mt-10 " >
+        <h4 class="txt-c fs-13">Show Bullets</h4>
+        <div class="bullet-control  space-between fs-13 pt-10">
+          <span data-show="show" class="d-block rad-4 ml-20 active yes">Show</span>
+          <span data-show="hide" class="d-block rad-4 mr-20 no">Hide</span>
+        </div>
+      </div>
+      <div class="reset-btn bg-red fs-15 fw-bold txt-c rad-6 c-white">Reset all options</div>
+    </div>
+  </div>
+  <!-- Start Setting Box  -->
+
+  <!-- Start nav-bullets  -->
+  <div class="nav-bullets">
+      <a href="#about">
+        <div class="bullet rad-half p-relative" data-section="#about">
+          <div class="tooltip bg-main c-white rad-4 fs-13 txt-c">About Us</div>
+      </a>
+    </div>
+    <div class="bullet rad-half p-relative" data-section="#skills">
+      <div class="tooltip bg-main c-white rad-4 fs-13 txt-c">Our Skills</div>
+    </div>
+    <div class="bullet rad-half p-relative" data-section="#Gallery">
+      <div class="tooltip bg-main c-white rad-4 fs-13 txt-c">Our Gallery</div>
+    </div>
+    <div class="bullet rad-half p-relative" data-section="#timeline">
+      <div class="tooltip bg-main c-white rad-4 fs-13 txt-c">Timeline</div>
+    </div>
+    <div class="bullet rad-half p-relative" data-section="#features">
+      <div class="tooltip bg-main c-white rad-4 fs-13 txt-c">Features</div>
+    </div>
+    <div class="bullet rad-half p-relative" data-section="#contact">
+      <div class="tooltip bg-main c-white rad-4 fs-13 txt-c">Contact Us</div>
+    </div>
+  </div>
+  <!-- Start nav-bullets  -->
+
+  <!-- Start Landing Page  -->
+  <div class="landing p-relative " id="home">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area p-relative space-between align-center ">
+        <div class="logo fw-bold">Special Design</div>
+        <div class="nav fs-14">
+          <i class="fas fa-bars toggle-menu"></i>
+          <ul class="txt-r rad-10">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="intro-text mid-position txt-c c-white w-full p-20">
+      <h1>We Are <span class="c-main"> Creative </span> Agency</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur, obcaecati sit. Neque tenetur, obcaecati sit </p>
+    </div>
+    </div>
+  <!-- End Landing Page  -->
+
+  <!-- Start About-Us  -->
+  <div class="about-us " id="about">
+    <div class="container p-section d-flex align-center">
+      <div class="info-box  p-20 pt-25">
+        <h2 class=" c-main mb-40 sec-head fw-bold">About Us</h2>
+        <p class="c-777">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum repellat aliquid totam expedita dolor. Laboriosam, eius? Itaque autem </p>
+      </div>
+      <div class="img-box txt-c">
+        <img src="imgs/about_us.avif" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- End About-Us  -->
+
+  <!-- Start Skills  -->
+  <div class="our-skills bg-eee" id="skills">
+    <div class="container p-section  ml-20">
+      <div class="sec-head ">
+        <h2 class="fw-bold c-main  mb-40">Our Skills</h2>
+      </div>
+      <div class="skill-box p-15 bg-white d-flex rad-6 mb-20">
+        <div class="name fw-bold mr-15">HTML</div>
+        <div class="prog rad-6 p-relative">
+          <span class="bg-main " data-prog="90%"></span>
+        </div>
+      </div>  
+      <div class="skill-box p-15 bg-white d-flex rad-6 mb-20">
+        <div class="name fw-bold mr-15">CSS</div>
+        <div class="prog rad-6 p-relative ">
+          <span class="bg-main " data-prog="85%"></span>
+        </div>
+      </div>
+      <div class="skill-box p-15 bg-white d-flex rad-6 mb-20">
+        <div class="name fw-bold mr-15">Javascript</div>
+        <div class="prog rad-6 p-relative ">
+          <span class="bg-main " data-prog="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box p-15 bg-white d-flex rad-6 mb-20">
+        <div class="name fw-bold mr-15">Python</div>
+        <div class="prog rad-6 p-relative ">
+          <span class="bg-main " data-prog="75%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Skills  -->
+
+  <!-- Start Gallery  -->
+  <div class="our-gallery" id="Gallery">
+    <div class="container p-section  ml-20">
+      <div class="sec-head ">
+        <h2 class="fw-bold c-main  mb-40">Our Gallery</h2>
+      </div>
+      <div class="img-box txt-c mt-20">
+        <img src="imgs/gal_01.jpg" alt="image one" class="rad-6">
+        <img src="imgs/gal_02.jpg" alt="image two" class="rad-6">
+        <img src="imgs/gal_03.jpg" alt="image three" class="rad-6">
+        <img src="imgs/gal_04.jpg" alt="image four" class="rad-6">
+        <img src="imgs/gal_05.jpg" alt="image five" class="rad-6">
+        <img src="imgs/gal_06.jpg" alt="" class="rad-6">
+        <img src="imgs/gal_07.jpg" alt="" class="rad-6">
+        <img src="imgs/gal_08.jpg" alt="" class="rad-6">
+        <img src="imgs/gal_09.jpg" alt="" class="rad-6">
+        <img src="imgs/gal_10.jpg" alt="" class="rad-6">
+      </div>
+    </div>  
+  </div>
+  <!-- End Gallery  -->
+
+  <!-- Start Timeline  -->
+  <div class="timeline bg-eee" id="timeline">
+    <div class="container p-section  ml-20">
+      <div class="sec-head ">
+        <h2 class="fw-bold c-main  mb-40">Timeline</h2>
+      </div>
+
+      <div class="timeline-content p-relative mt-40">
+
+        <div class="year w-fit bg-main txt-c c-white rad-6 p-relative">2020</div>
+
+        <div class="left p-relative p-20 bg-white rad-6 ">
+          <div class="content">
+            <h3 class="fw-bold c-main mb-10">Content Heading</h3>
+            <p class="c-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum, vitae eveniet sequi sapiente esse perspiciatis, iusto reiciendis molestias aperiam doloribus quis vero excepturi dolore libero delectus? Dicta, quod mollitia!</p>
+          </div>
+        </div>
+        
+        <div class="right p-relative p-20 bg-white rad-6 ">
+          <div class="content">
+            <h3 class="fw-bold c-main mb-10">Content Heading</h3>
+            <p class="c-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum, vitae eveniet sequi sapiente esse perspiciatis, iusto reiciendis molestias aperiam doloribus quis vero excepturi dolore libero delectus? Dicta, quod mollitia!</p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>  
+  <!-- End Timeline  -->
+
+  <!-- Start Features  -->
+  <div class="features " id="features">
+    <div class="container p-section  ml-20">
+      <div class="sec-head ">
+        <h2 class="fw-bold c-main  mb-40">Features</h2>
+      </div>
+      <div class="wrapper">
+        <div class="feat-box txt-c p-15">
+          <img src="imgs/Icon_01.png" alt="" class="mb-15">
+          <h4 class="c-main fw-bold mb-10">Development</h4>
+          <p class="c-gray fs-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed id Lorem ipsum dolor sit amet,</p>
+        </div>
+        <div class="feat-box txt-c p-15">
+          <img src="imgs/Icon_02.png" alt="" class="mb-15">
+          <h4 class="c-main fw-bold mb-10">Development</h4>
+          <p class="c-gray fs-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed id Lorem ipsum dolor sit amet,</p>
+        </div>
+        <div class="feat-box txt-c p-15">
+          <img src="imgs/Icon_03.png" alt="" class="mb-15">
+          <h4 class="c-main fw-bold mb-10">Design</h4>
+          <p class="c-gray fs-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed id Lorem ipsum dolor sit amet,</p>
+        </div>
+        <div class="feat-box txt-c p-15">
+          <img src="imgs/Icon_04.png" alt="" class="mb-15">
+          <h4 class="c-main fw-bold mb-10">Marketing</h4>
+          <p class="c-gray fs-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed id Lorem ipsum dolor sit amet,</p>
+        </div>
+        <div class="feat-box txt-c p-15">
+          <img src="imgs/Icon_05.png" alt="" class="mb-15">
+          <h4 class="c-main fw-bold mb-10">Cloud & Servers</h4>
+          <p class="c-gray fs-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed id Lorem ipsum dolor sit amet,</p>
+        </div>
+        <div class="feat-box txt-c p-15">
+          <img src="imgs/Icon_06.png" alt="" class="mb-15">
+          <h4 class="c-main fw-bold mb-10">Development</h4>
+          <p class="c-gray fs-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed id Lorem ipsum dolor sit amet,</p>
+        </div>
+      </div>
+    </div>  
+  </div>  
+  <!-- End Features  -->
+
+  <!-- Start Contact Us  -->
+  <div class="contact p-relative " id="contact">
+    <div class="overlay"></div>
+    <div class="container p-section  ml-20 ">
+      <div class="sec-head ">
+        <h2 class="fw-bold c-main  mb-60">Contanct Us</h2>
+      </div>
+      <form action="" class="d-flex p-relative">
+        <div class="left main-p-mobile">
+          <input type="text" name="username" placeholder="Your Name" autocomplete="off">
+          <input type="text" name="phone" placeholder="Your Phone">
+          <input type="email" name="email" placeholder="Your Email" autocomplete="off">
+          <input type="text" name="subject" placeholder="Your Subject" autocomplete="off">
+        </div>
+        <div class="right main-p-mobile">
+          <textarea name="message" placeholder="Your Message" ></textarea>
+          <input type="submit" name="send" value="Send">
+        </div>
+      </form>
+    </div>    
+  </div>    
+  <!-- Start Contact Us  -->
+
+
+  <script src="JS/main.js"></script>
+</body>
+</html>
